@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.synolexoil.synolexappandroidstudio151sdk422api17.LubeInfoJava">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imageView10"
+        android:src="#FFCE0101"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView11"
+        android:src="@drawable/logohorizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="اطلاعات عمومی روغن"
+        android:id="@+id/textView10"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_alignBottom="@+id/imageView10"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="15dp" />
+
+</RelativeLayout>

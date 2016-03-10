@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.synolexoil.synolexappandroidstudio151sdk422api17.LubeChangeReminder">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="#FFCE0101" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logohorizontal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="ARIAS 10W-40 SM MOTOR"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="fill_parent"
+                android:layout_height="225dp"
+                android:layout_below="@+id/imageView6"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1.93"
+                android:src="@drawable/arias_20w_50_smmotor" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000"
+                android:textSize="12dp"
+                android:text="سینولکس آریاس 10W-40 SM با فرمولاسیون نیمه سینتتیک برای به نمایش کشیدن توان واقعی موتور فرموله شده است. این روغن می تواند در سخت ترین شرایط کارکرد برای موتورهایی که خودروساز سطح کیفیت SM و یا پایین تر را به مصرف کننده پیشنهاد داده استفاده شود."
+                />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:paddingTop="20dp"
+                android:text="نوع روغن پایه:
+سینتتیک + روغن درجه 1 پالایشگاهی\n
+
+ویژگی های محصول:\n
+•	افزایش محافظت از موتور\n
+•	خاصیت ترمیم سطوح فلزی\n
+•	استارت سریع در هوای سرد"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="0.38"
+                android:height="60dp"
+                android:background="#ffecad"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_shopping_cart_red_500_18dp"
+                android:padding="6dp"
+                android:text="خرید"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

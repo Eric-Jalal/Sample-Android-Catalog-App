@@ -1,0 +1,22 @@
+<!-- [ Mirror metadata ] generatedAt: 1456033863183 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/activity_arias_10_w_40__sl">
+        <!-- ImageView Examples:
+        <imageView6 src="@drawable/image_resource" />
+        <imageView6 src="relative_path/image.jpg" /> -->
+        <imageView6 />
+        <imageView7 />
+        <!-- TextView Examples:
+        <textView2 text="@string/string_resource" />
+        <textView2 text="Text literal" textSize="14sp" /> -->
+        <textView2 />
+        <imageView19 />
+        <textView13 />
+        <textView12 />
+    </_content>
+</screen>

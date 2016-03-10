@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_synolex_lube_info"
+            android:icon="@drawable/info"
+            android:title="اطلاعات روغن سینولکس" />
+        <item
+            android:id="@+id/fragment_synolex_lube_search"
+            android:icon="@drawable/oilsearch"
+            android:title="روغن مناسب خودرو" />
+<!--        <item
+            android:id="@+id/fragment_lube_info_java"
+            android:icon="@drawable/oilinfo"
+            android:title="اطلاعات فنی روغن موتور" />-->
+        <item
+            android:id="@+id/fragment_lube_change_reminder"
+            android:icon="@drawable/oil"
+            android:title="تایمر تعویض روغن" />
+        <item
+            android:id="@+id/fragment_insurance_expiration_reminder"
+            android:icon="@drawable/insurance"
+            android:title="یادآور تمدید بیمه ثالث" />
+<!--        <item
+            android:id="@+id/fragment_map"
+            android:icon="@drawable/map"
+            android:title="نزدیک ترین اتو سرویس" />-->
+
+
+
+
+        <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+        <item
+            android:id="@+id/fragment_khalafi"
+            android:icon="@drawable/motorsound"
+            android:title="استعلام خلافی خودرو" />
+<!--        <item
+            android:id="@+id/fragment_motorsound"
+            android:icon="@drawable/khalafipolice"
+            android:title="تست صدای موتور" />-->
+        <item
+            android:id="@+id/fragment_buy"
+            android:icon="@drawable/buy"
+            android:title="سفارش آنلاین" />
+        <item
+            android:id="@+id/fragment_policy"
+            android:icon="@drawable/policy"
+            android:title="رفع مسئولیت" />
+        <item
+            android:id="@+id/fragment_callus"
+            android:icon="@drawable/callus"
+            android:title="تماس با ما" />
+    </group>
+
+</menu>

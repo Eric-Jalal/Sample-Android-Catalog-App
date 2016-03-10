@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/introbg">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/editText" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp" android:background="@drawable/fieldbg" android:hint="نام"
+        android:textColorHint="#636363" android:textColor="#262626" android:padding="5dp"
+        android:paddingLeft="30dp"/>
+    <EditText android:layout_width="300dp" android:layout_height="40dp" android:id="@+id/editText2"
+        android:background="@drawable/fieldbg"
+        android:layout_below="@+id/editText" android:layout_alignLeft="@+id/editText"
+        android:layout_marginTop="15dp" android:hint="مدل خودرو" android:textColorHint="#636363"
+        android:textColor="#262626" android:padding="5dp" android:paddingLeft="30dp"/>
+    <EditText android:layout_width="300dp" android:layout_height="40dp" android:id="@+id/editText3"
+        android:background="@drawable/fieldbg"
+        android:layout_below="@+id/editText2" android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" android:hint="ایمیل" android:textColorHint="#636363"
+        android:textColor="#262626" android:padding="5dp" android:paddingLeft="30dp"/>
+    <EditText android:layout_width="300dp" android:layout_height="40dp" android:id="@+id/editText4"
+        android:background="@drawable/fieldbg"
+        android:layout_below="@+id/editText3" android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" android:hint="تلفن" android:textColorHint="#636363"
+        android:textColor="#262626" android:padding="5dp" android:paddingLeft="30dp" android:phoneNumber="true"
+        android:selectAllOnFocus="true"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="ثبت اطلاعات"
+        android:id="@+id/button" android:layout_below="@+id/editText4" android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" android:background="#646464" android:textColor="#ffffff"
+        android:typeface="normal"/>
+    <Button android:layout_width="300dp" android:layout_height="40dp" android:text="ورود" android:id="@+id/button2"
+        android:layout_below="@+id/button" android:layout_centerHorizontal="true" android:textColor="#424242"
+        android:background="#ffffff" android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView2"
+        android:background="@mipmap/ic_accessibility_blue_grey_800_18dp"
+        android:layout_alignTop="@+id/editText" android:layout_alignLeft="@+id/editText"
+        android:layout_marginTop="5dp" android:layout_marginLeft="5dp" android:padding="1dp"/>
+    <ImageView android:layout_width="30dp" android:layout_height="30dp" android:id="@+id/imageView3"
+        android:background="@mipmap/ic_directions_car_blue_grey_700_18dp"
+        android:layout_alignTop="@+id/editText2" android:layout_alignLeft="@+id/editText2"
+        android:layout_marginTop="5dp" android:layout_marginLeft="5dp" android:padding="1dp"/>
+    <ImageView android:layout_width="30dp" android:layout_height="30dp" android:id="@+id/imageView4"
+        android:background="@mipmap/ic_email_blue_grey_700_36dp"
+        android:layout_alignTop="@+id/editText3" android:layout_alignLeft="@+id/editText3"
+        android:layout_marginTop="5dp" android:layout_marginLeft="5dp" android:padding="1dp"/>
+    <ImageView android:layout_width="30dp" android:layout_height="30dp" android:id="@+id/imageView5"
+        android:background="@mipmap/ic_smartphone_blue_grey_700_36dp"
+        android:layout_alignBottom="@+id/editText4" android:layout_alignLeft="@+id/editText4"
+        android:layout_marginBottom="5dp" android:layout_marginLeft="5dp" android:padding="1dp"/>
+
+</RelativeLayout>

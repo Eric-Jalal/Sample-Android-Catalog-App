@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.synolexoil.synolexappandroidstudio151sdk422api17.LubeChangeReminder">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="#FFCE0101" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logohorizontal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="TAXI"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="fill_parent"
+                android:layout_height="225dp"
+                android:layout_below="@+id/imageView6"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1.93"
+                android:src="@drawable/taxi_copy" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.93"
+                android:padding="20dp"
+                android:text="در فرمولاسیون روغن سینولکس تاکسی (TAXI) به نکاتی توجه شده است که آن را از سایر روغن های موجود در بازار متمایز نموده است.
+این روغن جهت کارکرد زیاد در همه فصول و در ترافیک های شهری طراحی شده است. در فرمولاسیون این روغن از موادی استفاده گردیده که با خاصیت چسبندگی بالا (خاصیت مغناطیسی) لایه ماندگار نازکی روی قطعات داخل موتور تشکیل می دهد و از موتور خودروی شما در لحظه استارت محافظت می نماید.
+خاصیت پاک کنندگی این روغن باعث می شود جرم و رسوبات داخلی موتور خودروی شما پاک شده و پس از چند بار استفاده، موتور کاملا تمیز و سلامتی آن تضمین خواهد شد.
+از دیگر ویژگی های این روغن می توان به میزان تبخیر بسیار پایین اشاره کرد که به شما راننده گرامی کمک می کند تا بدون نگرانی از کم کردن روغن در مسیرهای طولانی یا پر ترافیک شهری، آسوده خاطر برانید."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.93"
+                android:padding="20dp"
+                android:text="نوع روغن پایه:
+تمام سینتتیک\n
+
+ویژگی های محصول:\n
+•	کارآیی متمایز\n
+•	شاخص ویسکوزیته بالا\n
+•	استارت سریع در هوای سرد"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="0.38"
+                android:height="60dp"
+                android:background="#ffecad"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_shopping_cart_red_500_18dp"
+                android:padding="6dp"
+                android:text="خرید"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

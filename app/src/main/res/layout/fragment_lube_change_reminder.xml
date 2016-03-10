@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.synolexoil.synolexappandroidstudio151sdk422api17.LubeChangeReminder">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imageView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:src="#FFCE0101"
+        android:layout_marginTop="50dp" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/logohorizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_toStartOf="@+id/textView6"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="تایمر تعویض روغن"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="15dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="14dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="2"
+        android:id="@+id/editText5"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ما زمان تعویض روغن را به شما یاداوری خواهیم کرد."
+        android:id="@+id/textView3"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ثبت"
+        android:id="@+id/button3"
+        android:background="#d40808"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="2"
+        android:id="@+id/editText6"
+        android:layout_alignTop="@+id/editText5"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="2"
+        android:id="@+id/editText7"
+        android:layout_above="@+id/textView3"
+        android:layout_toStartOf="@+id/textView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="روز"
+        android:id="@+id/textView4"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_toEndOf="@+id/editText5"
+        android:layout_marginBottom="5dp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ماه"
+        android:id="@+id/textView5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toEndOf="@+id/editText6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="سال"
+        android:id="@+id/textView6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_toStartOf="@+id/editText6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="لطفا آخرین تاریخ تعویض روغن خودروی خود را وارد کنید."
+        android:id="@+id/textView23"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+</RelativeLayout>

@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.synolexoil.synolexappandroidstudio151sdk422api17.LubeInfoJava">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:src="#FFCE0101" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logohorizontal" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:allowUndo="false"
+        android:background="#00ffffff"
+        android:gravity="right|center"
+        android:paddingRight="100dp"
+        android:text="روغن های خودرویی"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView10" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_above="@+id/button7"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="right|center"
+        android:paddingRight="100dp"
+        android:background="#00ffffff"
+        android:text="روغن های موتور سیکلت"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_above="@+id/button8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="right|center"
+        android:paddingRight="100dp"
+        android:background="#00ffffff"
+        android:text="روغن های دنده خودرویی"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginBottom="2dp"
+        android:gravity="right|center"
+        android:paddingRight="100dp"
+        android:text="روغن های موتور دیزلی"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:background="#00ffffff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/car"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="45dp"
+                android:layout_above="@+id/imageView13"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="21dp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/motor"
+                android:layout_above="@+id/imageView14"
+                android:layout_alignStart="@+id/imageView14" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/gear"
+                android:layout_above="@+id/imageView15"
+                android:layout_alignStart="@+id/imageView15"
+                android:layout_marginBottom="38dp" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/truck"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/imageView12"
+                android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:text="فهرست اطلاعات روغن خودرویی"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_above="@+id/imageView12"
+            android:layout_alignEnd="@+id/imageView12" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

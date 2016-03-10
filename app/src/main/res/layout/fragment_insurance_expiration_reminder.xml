@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.synolexoil.synolexappandroidstudio151sdk422api17.InsuranceExpirationReminder">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="#FFCE0101"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:src="@drawable/logohorizontal"
+        android:layout_alignTop="@+id/imageView20"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ثبت"
+        android:id="@+id/button13"
+        android:background="#d40808"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageView21"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="یاداور تمدید بیمه ثالث"
+        android:id="@+id/textView19"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignBottom="@+id/imageView20"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="لطفا تاریخ به پایان رسیدن بیمه شخص ثالث خود را وارد کنید"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/imageView20"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignEnd="@+id/textView24"
+        android:layout_alignStart="@+id/textView24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="روز"
+        android:id="@+id/textView20"
+        android:layout_marginTop="49dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignEnd="@+id/textView24" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="2"
+        android:id="@+id/editText20"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_toStartOf="@+id/textView20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ماه"
+        android:id="@+id/textView21"
+        android:layout_alignTop="@+id/textView20"
+        android:layout_toStartOf="@+id/textView19" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="2"
+        android:id="@+id/editText21"
+        android:layout_alignTop="@+id/editText20"
+        android:layout_toStartOf="@+id/textView21"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="سال"
+        android:id="@+id/textView22"
+        android:layout_above="@+id/textView24"
+        android:layout_alignEnd="@+id/imageView21" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="2"
+        android:id="@+id/editText22"
+        android:layout_above="@+id/textView24"
+        android:layout_toStartOf="@+id/textView22"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ما پیش از اتمام اعتبار بیمه نامه شما را مطلع خواهیم کرد."
+        android:id="@+id/textView24"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/textView21"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

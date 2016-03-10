@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fa3434</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#e60400</color>
+    <color name="black_overlay">#ff2525</color>
+    <color name="ActionBar">#ab1608</color>
+    <color name="MenuModal">#f9f9f9</color>
+    <color name="primary_material_light_1">#ce0101</color>
+    <color name="statusbar">#000000</color>
+    <color name="primary_material_dark_1">#ce0101</color>
+    <color name="accent_material_light">#f52626</color>
+    <color name="primary_material_dark">#fa3434</color>
+    <color name="black">#000000</color>
+    <color name="primary_dark_material_light">#ce0101</color>
+</resources>
+

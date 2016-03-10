@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.synolexoil.synolexappandroidstudio151sdk422api17">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <permission
+        android:name="co.ronash.pushedemo.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="co.ronash.pushedemo.permission.C2D_MESSAGE" />
+    <!-- To access Google+ APIs: -->
+
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.synolexoil.synolexappandroidstudio151sdk422api17" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="co.ronash.pushe.token"
+            android:value="4e-ff89-4b_22542365201" />
+
+        <activity
+            android:name=".splash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.Synolex" />
+        <activity
+            android:name=".BuyActivity"
+            android:label="@string/title_activity_buy"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RoghanMotorBenzini"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".RoghanDandehKhodroi"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".RoghanMotorDiesel"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".DIACO_5W_30_SN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DIACO_5W_40_SN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARIAS_10W_40_SM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARIAS_20W_50_SM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARIAS_10W_40_SL"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARIAS_20W_50_SL"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARIAS_20W_50_SG"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARIAS_15W_40_CNG"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RONAK_20W_50_SG"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TAXI"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="f125c330a793395a233188e03684907902e41a5c" />
+
+        <activity
+            android:name=".FLUIDMATIC_SP_III"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FLUIDMATIC_ATF_CVT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FLUIDMATIC_ATF_DCT_DSG"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FLUIDMATIC_ATF_DIII"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SYNCHRO_85W_90_GL_5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SYNCHRO_75W_80_GL_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SYNCHRO_75W_90_GL_5_GL_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DIACO_5W_30_SN_MOTOR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DIACO_5W_40_SN_MOTOR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARIAS_10W_40_SM_MOTOR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RONAK_20W_50_SG_MOTOR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARIAS_10W_40_SL_MOTOR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARIAS_20W_50_SM_MOTOR"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RoghanMotorCyclet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARISO_15W_40_CH_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARISO_20W_50_CH_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARISO_15W_40_CI_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARISO_SAE_50_CD"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

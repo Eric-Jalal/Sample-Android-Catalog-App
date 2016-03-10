@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.DIACO_5W_40_SN"/>
+      <point      
+        x = "500"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.ARIAS_20W_50_SL"/>
+      <point      
+        x = "548"      
+        y = "148"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.RoghanMotorCyclet"/>
+      <point      
+        x = "384"      
+        y = "1064"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.ARIAS_20W_50_SM"/>
+      <point      
+        x = "2868"      
+        y = "96"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.ARIAS_10W_40_SM_MOTOR"/>
+      <point      
+        x = "700"      
+        y = "300"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.MainActivity"/>
+      <point      
+        x = "1820"      
+        y = "172"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.RoghanDandehKhodroi"/>
+      <point      
+        x = "748"      
+        y = "348"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.RoghanMotorDiesel"/>
+      <point      
+        x = "804"      
+        y = "416"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.ARIAS_15W_40_CNG"/>
+      <point      
+        x = "232"      
+        y = "1136"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.splash"/>
+      <point      
+        x = "1924"      
+        y = "816"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.RONAK_20W_50_SG"/>
+      <point      
+        x = "900"      
+        y = "500"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.MapsActivity"/>
+      <point      
+        x = "950"      
+        y = "550"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.DIACO_5W_30_SN_MOTOR"/>
+      <point      
+        x = "1000"      
+        y = "600"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.ARIAS_20W_50_SM_MOTOR"/>
+      <point      
+        x = "1748"      
+        y = "128"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.RoghanMotorBenzini"/>
+      <point      
+        x = "956"      
+        y = "1268"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.SYNCHRO_75W_90_GL_5_GL_4"/>
+      <point      
+        x = "2232"      
+        y = "1232"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.FLUIDMATIC_ATF_CVT"/>
+      <point      
+        x = "1200"      
+        y = "800"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.FLUIDMATIC_ATF_DCT_DSG"/>
+      <point      
+        x = "1250"      
+        y = "850"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.DIACO_5W_30_SN"/>
+      <point      
+        x = "3128"      
+        y = "1012"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.SYNCHRO_75W_80_GL_4"/>
+      <point      
+        x = "1350"      
+        y = "950"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.TAXI"/>
+      <point      
+        x = "1400"      
+        y = "1000"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.FLUIDMATIC_SP_III"/>
+      <point      
+        x = "1448"      
+        y = "1048"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.DIACO_5W_40_SN_MOTOR"/>
+      <point      
+        x = "1500"      
+        y = "1100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.ARIAS_10W_40_SL_MOTOR"/>
+      <point      
+        x = "1550"      
+        y = "1150"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.BuyActivity"/>
+      <point      
+        x = "3348"      
+        y = "184"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.SYNCHRO_85W_90_GL_5"/>
+      <point      
+        x = "1650"      
+        y = "1250"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.ARIAS_10W_40_SL"/>
+      <point      
+        x = "1700"      
+        y = "1300"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.ARIAS_10W_40_SM"/>
+      <point      
+        x = "1750"      
+        y = "1350"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.FLUIDMATIC_ATF_DIII"/>
+      <point      
+        x = "1800"      
+        y = "1400"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.RONAK_20W_50_SG_MOTOR"/>
+      <point      
+        x = "2280"      
+        y = "512"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.Login"/>
+      <point      
+        x = "2824"      
+        y = "172"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.synolexoil.synolexappandroidstudio151sdk422api17.ARIAS_20W_50_SG"/>
+      <point      
+        x = "3620"      
+        y = "1108"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
